@@ -1,6 +1,6 @@
 # 语言 / Languages
 
-[简体中文](Readme/README-ZH-CN.md) | 
+[简体中文](Readme/README-ZH_CN.md) | 
 [English](README.md)
 
 ---
