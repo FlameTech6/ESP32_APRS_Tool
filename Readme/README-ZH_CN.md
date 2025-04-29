@@ -49,7 +49,7 @@ ESP32 APRS Tool 是一个为乐鑫ESP32微处理器实现的互联网网关(IGat
 ![esp32dr_sql](../image/ESP32IGate_SQL.jpg)
 
 ## 网页服务截图
-![仪表盘界面](../image/ESP32IGate_Screen_dashboard.png) ![igate界面](../image/ESP32IGate_Screen_igate.png) \
+![仪表盘界面](../image/ESP32IGate_Screen_dashboard.png) ![iGate界面](../image/ESP32IGate_Screen_igate.png) \
 ![无线电界面](../image/ESP32IGate_Screen_radio.png) ![调制模式界面](../image/ESP32IGate_Screen_mod.png)
 
 ## ESP32DR_SA868模块
@@ -114,8 +114,6 @@ PCB布局图[下载](../doc/PCB_Layout.pdf)
 
 可通过Shopee购买套件[点击](https://shopee.co.th/product/45191268/13373396785)
 
-DIY教程[下载](../doc/ESP32DR_DIY-Thai.pdf)
-
 ### 安装示意图
 
 ![安装图](../image/ESP32DR_SimpleLayout.png)
@@ -145,13 +143,13 @@ Yaesu FT-2800(RJ11)连接方式:
 
 ![FT2800](../image/ESP32DR_FT2800.png)
 
-手持台连接方式:
+手持电台连接方式:
 
-![手持台](../image/ESP32DR_HT.png)
+![手持电台](../image/ESP32DR_HT.png)
 
-![手持台接收](../image/ESP32DR_RxOnly.png)
+![手持电台接收](../image/ESP32DR_RxOnly.png)
 
-## ESP32IGate固件安装（首次操作，后续可通过网页升级）
+## ESP32IGate固件安装（首次操作所需，后续可通过网页升级）
 1. 将USB线连接至ESP32模块
 2. 下载固件并打开ESP32下载工具，设置固件路径：ESP32IGate_Vxx.bin（地址0x10000）、partitions.bin（地址0x8000）、bootloader.bin（地址0x1000）和boot.bin（地址0xe000）。如无法连接，请将GPIO0短接GND，点击START按钮完成后，按电源键或复位键（红色）
 3. 连接WiFi热点SSID: ESP32IGate，浏览器访问http://192.168.4.1 密码: aprsthnetwork 可进行设置或连接路由器
@@ -180,11 +178,23 @@ https://www.espressif.com/en/support/download/other-tools
 - T2THAI的ampr主机[aprs.hs5tqa.ampr.org:14580](http://aprs.hs5tqa.ampr.org:14501)
 - APRS地图服务[http://aprs.dprns.com](http://aprs.dprns.com)
 
-## 开发者/支持信息
+## ESP32 Flash下载工具
+https://www.espressif.com/en/support/download/other-tools
+
+## 特别说明
+本项目仅实现APRS文本(TNC2原始格式)，不支持数据包中的空字符(0x00)。
+
+---
+
+以下为原项目的相关信息
+
+---
+
+## 原项目开发者信息
 
 - 作者: Somkiat Nakhonthai
 - 呼号: HS5TQA,Atten,Nakhonthai
-- 国家: 泰国曼谷
+- 国家: 泰国,曼谷
 - Github: [https://github.com/nakhonthai](https://github.com/nakhonthai)
 - Youtube: [https://www.youtube.com/@HS5TQA](https://www.youtube.com/@HS5TQA)
 - TikTok: [https://www.tiktok.com/@hs5tqa](https://www.tiktok.com/@hs5tqa)
@@ -193,19 +203,15 @@ https://www.espressif.com/en/support/download/other-tools
 - TelegramID: @HS5TQA
 - 微信ID: HS5TQA
 
-## 捐赠支持
+## 原项目作者捐赠与支持链接
 
-可通过[github赞助](https://github.com/sponsors/nakhonthai)支持ESP32APRS开发。\
+可通过[github赞助](https://github.com/sponsors/nakhonthai)支持原项目ESP32APRS的开发。\
 如需捐赠硬件支持APRS移植开发，请[联系我们](https://www.facebook.com/atten)。\
 <a href="https://www.paypal.me/0hs5tqa0"><img src="https://github.com/nakhonthai/ESP32IGate/raw/master/blue.svg" height="40"></a>
 
-## ESP32 Flash下载工具
-https://www.espressif.com/en/support/download/other-tools
-
 ## 致谢与参考
+
+- nakhonthai的ESP32APRS项目[ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio)(此为本项目的原项目)
 
 - amedes的ESP32TNC项目[ESP32TNC](https://github.com/amedes/ESP32TNC)
 - markqvist的LibAPRS库[LibAPRS](https://github.com/markqvist/LibAPRS)
-
-## 特别说明
-本项目仅实现APRS文本(TNC2原始格式)，不支持数据包中的空字符(0x00)。
