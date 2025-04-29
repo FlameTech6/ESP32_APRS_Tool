@@ -1,7 +1,7 @@
 # 语言 / Languages
 
-[简体中文](README-ZH-CN.md) | 
-[English](../README.md)
+[简体中文](README-ZH_CN.md) | 
+English(敬请期待)
 
 ---
 
