@@ -5,9 +5,9 @@
 
 ---
 
-# ESP32_APRS_Tool 项目
+# ESP32 APRS Tool 项目
 
-ESP32_APRS_Tool 是一个为乐鑫ESP32微处理器实现的互联网网关(IGate)/数字中继(DiGi)/追踪器(Tracker)/气象站(WX)/遥测(TLM)设备，内置TNC功能。Fork自[ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio)项目
+ESP32 APRS Tool 是一个为乐鑫ESP32微处理器实现的互联网网关(IGate)/数字中继(DiGi)/追踪器(Tracker)/气象站(WX)/遥测(TLM)设备，内置TNC功能。Fork自[ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio)项目
 
 ## 功能特性
 
