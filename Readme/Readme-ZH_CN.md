@@ -35,24 +35,24 @@ ESP32APRS 是一款为乐鑫ESP32处理器实现的互联网网关(IGate)/数字
 * FX.25（带纠错的AX.25）编解码器，完全兼容[Direwolf](https://github.com/wb2osz/direwolf)和[UZ7HO Soundmodem](http://uz7.ho.ua/packetradio.htm)
 
 ## 硬件截图
-![esp32dr简易版](image/ESP32DR_Simple_Test.png) ![esp32dr_sa868](image/ESP32DR_SA868_2.png)
-![esp32dr_sa868电路板](doc/ESP32DR_SA868/ESP32DR_SA868_Block.png)
+![esp32dr简易版](../image/ESP32DR_Simple_Test.png) ![esp32dr_sa868](../image/ESP32DR_SA868_2.png)
+![esp32dr_sa868电路板](../doc/ESP32DR_SA868/ESP32DR_SA868_Block.png)
 
 ## 硬件改装
-![esp32dr_sql](image/ESP32IGate_SQL.jpg)
+![esp32dr_sql](../image/ESP32IGate_SQL.jpg)
 
 ## 网页服务截图
-![仪表盘界面](image/ESP32IGate_Screen_dashboard.png) ![igate界面](image/ESP32IGate_Screen_igate.png) \
-![无线电界面](image/ESP32IGate_Screen_radio.png) ![调制模式界面](image/ESP32IGate_Screen_mod.png)
+![仪表盘界面](../image/ESP32IGate_Screen_dashboard.png) ![igate界面](../image/ESP32IGate_Screen_igate.png) \
+![无线电界面](../image/ESP32IGate_Screen_radio.png) ![调制模式界面](../image/ESP32IGate_Screen_mod.png)
 
 ## ESP32DR_SA868模块
 共享项目[链接](https://oshwlab.com/APRSTH/esp32sa818) \
-原理图[下载](doc/ESP32DR_SA868/ESP32DR_SA868_sch.pdf) \
-PCB Gerber文件[下载](doc/ESP32DR_SA868/ESP32DR_SA868_Gerber.zip)
+原理图[下载](../doc/ESP32DR_SA868/ESP32DR_SA868_sch.pdf) \
+PCB Gerber文件[下载](../doc/ESP32DR_SA868/ESP32DR_SA868_Gerber.zip)
 
 ## ESP32DR简易版
 
-![esp32dr简易版3D模型](image/ESP32DR_Simple_Model.png)
+![esp32dr简易版3D模型](../image/ESP32DR_Simple_Model.png)
 
 ESP32DR简易版是连接电台的小型接口板。
 
@@ -62,19 +62,19 @@ ESP32DR简易版是连接电台的小型接口板。
 
 ### 原理图
 
-[![原理图](image/ESP32DR_SimpleCircuit.png)](image/ESP32DR_SimpleCircuit.png)
+[![原理图](../image/ESP32DR_SimpleCircuit.png)](../image/ESP32DR_SimpleCircuit.png)
 
 ### CAD资料
 
-Gerber文件[下载](doc/Gerber_ESP32DR_Simple.zip)
+Gerber文件[下载](../doc/Gerber_ESP32DR_Simple.zip)
 
-PCB正片文件[下载](doc/PCB_Bottom.pdf)
+PCB正片文件[下载](../doc/PCB_Bottom.pdf)
 
-PCB负片文件[下载](doc/PCB_Bottom_Invert.pdf)
+PCB负片文件[下载](../doc/PCB_Bottom_Invert.pdf)
 
-PCB布局图[下载](doc/PCB_Layout.pdf)
+PCB布局图[下载](../doc/PCB_Layout.pdf)
 
-原理图PDF[下载](doc/ESP32DR_Simple_Schematic.pdf)
+原理图PDF[下载](../doc/ESP32DR_Simple_Schematic.pdf)
 
 ### 物料清单
 
@@ -107,17 +107,17 @@ PCB布局图[下载](doc/PCB_Layout.pdf)
 
 可通过Shopee购买套件[点击](https://shopee.co.th/product/45191268/13373396785)
 
-DIY教程[下载](doc/ESP32DR_DIY-Thai.pdf)
+DIY教程[下载](../doc/ESP32DR_DIY-Thai.pdf)
 
 ### 安装示意图
 
-![安装图](image/ESP32DR_SimpleLayout.png)
+![安装图](../image/ESP32DR_SimpleLayout.png)
 
 ### 电台连接方式
 
 根据电台型号需要焊接跳线。
 
-![ESP32DR接口定义](image/RJ12Pinout.png)
+![ESP32DR接口定义](../image/RJ12Pinout.png)
 
 |制造商|RJ11-1 (+VIN)|RJ11-2 (SPK)|RJ11-3 (PTT)|RJ11-4 (GND)|RJ11-5 (MIC)|RJ11-6 (SQL)|
 |---|---|---|---|---|---|---|
@@ -128,21 +128,21 @@ DIY教程[下载](doc/ESP32DR_DIY-Thai.pdf)
 
 Alinco DR-135(DB9)连接方式:
 
-![Alinco](image/ESP32DR_DR135.png)
+![Alinco](../image/ESP32DR_DR135.png)
 
 ICOM IC2200(RJ45)连接方式:
 
-![IC2200](image/ESP32DR_IC2200.png)
+![IC2200](../image/ESP32DR_IC2200.png)
 
 Yaesu FT-2800(RJ11)连接方式:
 
-![FT2800](image/ESP32DR_FT2800.png)
+![FT2800](../image/ESP32DR_FT2800.png)
 
 手持台连接方式:
 
-![手持台](image/ESP32DR_HT.png)
+![手持台](../image/ESP32DR_HT.png)
 
-![手持台接收](image/ESP32DR_RxOnly.png)
+![手持台接收](../image/ESP32DR_RxOnly.png)
 
 ## ESP32IGate固件安装（首次操作，后续可通过网页升级）
 1. 将USB线连接至ESP32模块
@@ -150,7 +150,7 @@ Yaesu FT-2800(RJ11)连接方式:
 3. 连接WiFi热点SSID: ESP32IGate，浏览器访问http://192.168.4.1 密码: aprsthnetwork 可进行设置或连接路由器
 4. 长按BOOT按钮>100ms进入TX模式，>10秒恢复出厂设置
 
-![ESP32工具](image/ESP32Tool.png)
+![ESP32工具](../image/ESP32Tool.png)
 
 ## ESP32 Flash下载工具
 https://www.espressif.com/en/support/download/other-tools
