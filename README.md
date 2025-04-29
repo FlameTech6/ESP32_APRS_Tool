@@ -5,9 +5,9 @@
 
 ---
 
-# ESP32_APRS_Tool Project
+# ESP32 APRS Tool Project
 
-ESP32_APRS_Tool is an Internet Gateway (IGate)/Digital Repeater (DiGi)/Tracker/Weather Station (WX)/Telemetry (TLM) device with built-in TNC functionality, implemented for Espressif ESP32 microcontrollers. Forked from [ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio) project.
+ESP32 APRS Tool is an Internet Gateway (IGate)/Digital Repeater (DiGi)/Tracker/Weather Station (WX)/Telemetry (TLM) device with built-in TNC functionality, implemented for Espressif ESP32 microcontrollers. Forked from [ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio) project.
 
 
 ## Feature
