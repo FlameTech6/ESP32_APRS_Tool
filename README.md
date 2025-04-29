@@ -1,7 +1,14 @@
+# 语言 / Languages
+
+[简体中文](README.zh-CN.md) | 
+[English](README.md)
+
+---
+
 # ESP32APRS Simple Project
 
-ESP32APRS is a Internet Gateway(IGate)/Dital Repeater(DiGi)/Tracker/Weather(WX)/Telemetry(TLM) with TNC Built in that is implemented for Espressif ESP32 processor.
- 
+ESP32_APRS_Tool is an Internet Gateway (IGate)/Digital Repeater (DiGi)/Tracker/Weather Station (WX)/Telemetry (TLM) device with built-in TNC functionality, implemented for Espressif ESP32 microcontrollers. Forked from [ESP32APRS](https://github.com/nakhonthai/ESP32APRS_Audio) project.
+
 
 ## Feature
 
